@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TFS Top 500</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+
+        table {
+            border-collapse: collapse;
+            border: 2px black solid;
+            font: 12px sans-serif;
+        }
+
+        td {
+            border: 1px black solid;
+            padding: 5px;
+        }
+
+        #copyright {
+            background-color: rgba(0, 0, 0, 0.2);
+            font-size: large;
+            padding: 15px;
+        }
+
+        iframe {
+            position: fixed;
+            top: 50px;
+            left: auto;
+            bottom: 0;
+            right: auto;
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            z-index: -2;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar-inverse">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="./index.html"> <span class="glyphicon glyphicon-arrow-left"></span> Home</a></li>
+            </ul>
+         </div>
+    </div>
+</nav>
+
+<div class="wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <iframe src="./resources/Table.html"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="navbar navbar-default navbar-fixed-bottom bg-light text-center text-lg-start">
+    <div id="copyright" class="text-center p-3">&copy; 2021 Task Failed Successfully</div>
+</footer>
+
+</body>
+</html>
